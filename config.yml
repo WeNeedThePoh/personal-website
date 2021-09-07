@@ -21,7 +21,7 @@ params:
   description: "My personal website"
   keywords: [Blog, Portfolio, Tech, Books]
   author: Pedro Mealha
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -63,8 +63,8 @@ params:
     # imageHeight: 120
     # imageTitle: my image
     buttons:
-      - name: Posts
-        url: blog
+      # - name: Posts
+      #   url: blog
       - name: Projects
         url: projects
       - name: Books
@@ -115,10 +115,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: blog
-      name: blog
-      url: /blog/
-      weight: 10
+    # - identifier: blog
+    #   name: blog
+    #   url: /blog/
+    #   weight: 10
     - identifier: projects
       name: projects
       url: /projects/
