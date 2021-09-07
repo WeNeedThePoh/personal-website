@@ -1,6 +1,11 @@
 /.idea
-/node_modules
-package-lock.json
-.firebaserc
-firebase-debug.log
-/.firebase
+.DS_Store
+node_modules
+dist
+tmp
+
+/public/
+/resources/_gen/
+hugo.exe
+hugo.linux
+hugo.darwin
