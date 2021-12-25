@@ -1,5 +1,5 @@
 ---
 title: Contacts
-layout: "contacts"
+layout: contacts
 email: hello[at]pedromealha[dot]dev
 ---
