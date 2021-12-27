@@ -3,3 +3,6 @@ add-books:
 
 update-theme:
 	@git submodule update --init --recursive
+
+run:
+	@hugo server -D
