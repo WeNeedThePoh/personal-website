@@ -27,15 +27,13 @@ jobs:
           hugo-version: "0.88.1"
 
       - name: Build
-        run: |
-          netlify build --context=staging
+        run: netlify build --context=staging
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
       - name: Deploy
-        run: |
-          netlify deploy -m '${{ github.sha }}'
+        run: netlify deploy --prod -m '${{ github.sha }}'
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
