@@ -1,0 +1,13 @@
+{{- define "main" }}
+
+  <header class="post-header">
+    <h1>
+      {{ .Title }}
+    </h1>
+  </header>
+
+  <div>
+    <p>{{ $.Param "email" }}<p>
+  </div>
+
+{{- end }}{{/* end main */}}

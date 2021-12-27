@@ -1,0 +1,30 @@
+.footer-ext {
+  margin-top: -35px;
+}
+
+footer .github-link:link {
+  border-bottom: 1px solid white;
+  color: white;
+  opacity: 0.5;
+}
+
+footer .github-link{
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background-size: 200% 200%;
+  animation: rainbow 2s ease-in-out infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  transition: color .2s ease-in-out, opacity .2s ease-in-out;
+}
+
+footer .github-link:hover{
+  color:rgba(0, 0, 0, 0);
+  border-bottom: none;
+  opacity: 1;
+}
+
+@keyframes rainbow { 
+  0%{background-position:left}
+  50%{background-position:right}
+  100%{background-position:left}
+}
