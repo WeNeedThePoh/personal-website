@@ -9,6 +9,7 @@ api:
 repos: [
   "euromillions-api",
   "nba-stats-validator",
+  "nba-stats-api",
   "interview-guide",
   "dot-files",
   # "net-worth-tracker-api",
