@@ -12,7 +12,7 @@
     {{ $url := $.Param "api.url" }}
     {{ $username := $.Param "api.username" }}
     {{ $repos := $.Param "repos" }}
-    {{ range where (getJSON $url "/users/" $username "/repos?sort=pushed") "name" "in" $repos }}
+    {{ range where (getJSON $url "/users/" $username "/repos?sort=stars") "name" "in" $repos }}
     {{ $repo := . }}
     <div class="repo-card">
       <div style="display: flex; align-items: center;">

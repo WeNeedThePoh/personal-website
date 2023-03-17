@@ -5,7 +5,7 @@ type: projects
 layout:: list
 api:
   url: https://api.github.com
-  username: WeNeedThePoh
+  username: pedro-mealha
 repos: [
   "euromillions-api",
   "nba-stats-validator",
