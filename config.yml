@@ -1,5 +1,5 @@
 baseURL: "https://www.pedromealha.dev/"
-title: WeNeedThePoh
+title: Pedro Mealha
 paginate: 5
 theme: PaperMod
 copyright: 
@@ -77,7 +77,7 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://git.io/weneedthepooh"
+      url: "https://github.com/pedro-mealha"
     - name: linkedin
       url: "https://www.linkedin.com/in/pedro-mealha/"
     - name: goodreads
@@ -95,7 +95,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/WeNeedThePoh/personal-website/content"
+    URL: "https://github.com/pedro-mealha/personal-website/content"
     Text: "Suggest Changes"
     appendFilePath: true
 
